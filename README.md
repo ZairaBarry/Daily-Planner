@@ -4,7 +4,8 @@
 
 This project was created to build a simple calendar apllication that allows users to save events for each hour of the working day.
 
-[Daily_Planer]('./assets/daily.planner.png'?raw=True)
+![Daily_Planer](./assets/daily.planner.png)
+[Daily Planner](https://zairabarry.github.io/Daily-Planner/)
 
 ## Usage
 
