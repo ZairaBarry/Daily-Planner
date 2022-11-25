@@ -6,3 +6,18 @@ $(document).ready(function () {
   $('#currentDay').text(presentDate);
 
 })
+
+
+//code to apply the past, present, or future class to each time block and display color accordingly
+$('.description').each(function () {
+  var rowHour = $(this).attr('id')
+  if (parseInt(rowHour) === parseInt(currentHour)) {
+    $(this).addClass("present")
+  } else if (parseInt(rowHour) < parseInt(currentHour)) {
+    $(this).addClass("past")
+  } else {
+    $(this).addClass("future")
+  }
+
+});
+
